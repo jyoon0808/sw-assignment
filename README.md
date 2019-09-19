@@ -28,13 +28,14 @@ The web ppt CSS is optimized for 16:9 computer screen only. (in short, my screen
 0. [Kickoff Meeting](kickoff.md) ([Web ppt](https://hkustenterprize.github.io/sw-tutorial/kickoff.html))
 1. [Tutorial 1](tutorial1.md) ([Web ppt](https://hkustenterprize.github.io/sw-tutorial/tutorial1.html))
 2. [Tutorial 2](tutorial2.md) ([Web ppt](https://hkustenterprize.github.io/sw-tutorial/tutorial2.html))
+3. [Tutorial 3](tutorial3.md) ([Web ppt](https://hkustenterprize.github.io/sw-tutorial/tutorial3.html))
 
-> Please read the ***markdown*** version instead of the ppt version. 
+> Please read the ***markdown*** version instead of the ppt version.
 > The ppt version is:
 > 1. Optimized for large screens only. (scale would affect the display)
 > 2. Not detailed, certain contents are hidden in the ppt.
 > 3. Not suitable for mobile users.
-> 
+>
 > Web ppt files are generated using [Cleaver](https://github.com/jdan/cleaver).
 
 ## Supplementary Articles
