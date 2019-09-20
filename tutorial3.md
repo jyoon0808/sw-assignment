@@ -7,6 +7,21 @@ style: style.css
 
 # Terminal 101
 
+--
+
+### Terminologies
+
+* CPU Architecture
+  * x86-64 (amd64)
+  * ARM
+  * others...
+* Source & Pre-built binary
+* Stable, nightly, LTS
+* GUI & CLI
+* Return code
+* IDE
+* Embedded System
+* Linker
 
 --
 
@@ -52,6 +67,7 @@ style: style.css
 * `less`
 * Command line options
 * pipes
+* package manager
 
 --
 
@@ -61,6 +77,7 @@ style: style.css
 
 ### Memory
 
+* Signed integer using 2's complement
 * Endianness
 * Word size
 * Memory Alignment
@@ -70,6 +87,8 @@ style: style.css
   * RAM
   * Hard disk
 * Memory Mapped IO
+* Union
+* Discriminated union
 
 --
 
@@ -82,6 +101,7 @@ style: style.css
 * Real-time requirement
 * Hardware timers
 * Direct Memory Access (DMA)
+* Problem with multi-tasking (concurrency)
 
 --
 
@@ -89,9 +109,11 @@ style: style.css
 
 * Parameters
 * Jump
-* Indirect Jump (function pointer)
 * Stack
 * Heap
+* Recursion
+* Indirect Jump (function pointer)
+* Dynamic dispatch, virtual method table
 
 --
 
@@ -123,8 +145,17 @@ style: style.css
 
 ### Debugging
 
-* What is a debugger
+* Debugger
 * Watch variable
 * Breakpoint
 * Step instructions
+
+--
+
+### Common Techniques
+
+* Recursive data type
+* Circular buffer
+* Modulo
+* Recursion to loops
 
