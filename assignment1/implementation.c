@@ -8,7 +8,7 @@ Result getLargestConsecutiveChar(char *str)
     char string1[100], visited[100];
     int count[100] = {0}, flag = 0;
     
-    int i, j = 0, k = 0, l, max, index;
+    short i, j = 0, k = 0, l, max, index;
  
     l = strlen(str);
  
@@ -49,8 +49,8 @@ Result getLargestConsecutiveChar(char *str)
         {
             max = count[i];
             index = i;
+            r.length = index;
         }
     }
-    r = (Result)(r | index);
     return r;
 }
