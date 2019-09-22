@@ -1,12 +1,13 @@
 //ITSC:
 #include "implementation.h"
+#include <string.h>
 
 Result getLargestConsecutiveChar(char *str)
 {
+    Result r;
     char string1[100], visited[100];
     int count[100] = {0}, flag = 0;
     
-    Result r;
     int i, j = 0, k = 0, l, max, index;
  
     l = strlen(str);
@@ -48,8 +49,8 @@ Result getLargestConsecutiveChar(char *str)
         {
             max = count[i];
             index = i;
-            r = index;
         }
     }
+    r = (Result)(r | index);
     return r;
 }
